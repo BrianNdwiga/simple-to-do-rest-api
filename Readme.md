@@ -56,8 +56,9 @@ Create a `.env` file in the project root. Add the following variables:
 
 ```env
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/todo-api
+MONGO_URI=mongodb+srv://<db_username>:<db_password>@node-test.ggxki.mongodb.net/?retryWrites=true&w=majority&appName=node-test
 ```
+Remember to replace <db_username> and <db_password> with your own credentials on MONGO_URI.
 
 Start the server:
 
